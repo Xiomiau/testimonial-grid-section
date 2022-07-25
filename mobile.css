@@ -30,7 +30,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 90%;
-    margin: 3rem auto;
+    margin: 3rem auto 0;
 }
 
 .card {
@@ -54,8 +54,6 @@ body {
     margin-top: 1rem;
     border: 1px solid rgb(253, 252, 252);
     background-position: center;
-
-
 }
 
 .name,
@@ -83,6 +81,11 @@ body {
 .card1 {
     background-color: var(--Moderate-violet);
     color: var(--White);
+    background-image: url(/images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position: top right;
+
 }
 
 
@@ -121,5 +124,17 @@ body {
 
 .profile5 {
     background-image: url(/images/image-kira.jpg);
+}
 
+footer {
+    color: var(--Very-dark-blackish-blue);
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--Very-dark-blackish-blue);
+    width: fit-content;
+    margin: 1rem auto;
 }
